@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    width: 30rem;
+}
+
+.cell{
+    border: 1rem solid #000;
+    width: 10rem;
+    height: 10rem;
+}

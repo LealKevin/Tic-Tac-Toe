@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "compile": "tsc --watch",
+    "dev": "npm run compile & node --watch index.js"
+  }
+}
+
