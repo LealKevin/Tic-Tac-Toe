@@ -1,12 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.root{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 5rem;
+    font-family: "Nunito", serif;
+}
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
     width: 30rem;
+    flex: 0 1 auto;
+    text-align: center;
+    align-content: center;
+    
 }
 
 .cell{
-    border: 1rem solid #000;
     width: 10rem;
     height: 10rem;
+    align-content: center;
+}
+
+.cellVert{
+    width: 10rem;
+    height: 10rem;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    align-content: center;
+}
+
+.cellHor{
+    width: 10rem;
+    height: 10rem;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    align-content: center;
+}
+
+.cellCen{
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid #000;
+    align-content: center;
 }
