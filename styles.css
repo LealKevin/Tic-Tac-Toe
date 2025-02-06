@@ -2,11 +2,49 @@
 
 .root{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-top: 5rem;
     font-size: 5rem;
     font-family: "Nunito", serif;
 }
+
+.message{
+    font-size:1rem;
+}
+.players{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.nameChange{
+
+    padding: 0.5rem;
+    outline: none;
+    background-color: white;
+    border-radius: 8px;
+
+    text-align: center;
+
+}
+
+.player{
+    width: 15rem;
+}
+
+.playerX{
+    width: 15rem;
+    text-align: end;
+}
+
+.score{
+    font-size: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -45,4 +83,18 @@
     height: 10rem;
     border: 2px solid #000;
     align-content: center;
+}
+
+.reset{
+    padding: 0.5rem;
+    outline: none;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.okBtn{
+    padding: 0.5rem;
+    outline: none;
+    background-color: white;
+    border-radius: 8px;
 }
